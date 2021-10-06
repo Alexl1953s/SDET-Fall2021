@@ -1,0 +1,25 @@
+1. What are classes in java?
+    - first package needs to be created and then create a class inside it;
+    - syntax to create a class first it should have a access modifier EX: public
+    - class keyword and then class name
+    - class name should follow CamelCase naming convention [ standard ]
+
+2. How many main can there be in a class?
+    - only one main method
+
+3. What is a main method?
+    - public static void main(String [] args){}
+
+4. What are identifiers in java?
+    - variables, class, methods.
+
+5. System.out.print() vs System.out.println()
+    - System.out.print() on the same line
+    - System.out.println() prints out the output in the console on a new line
+
+6. Reserved keywords in java?
+    - the words that have meaning there are around 53 of them
+    EX: public, class, boolean and some more words.
+
+**Ask Mansur about the history of different data types and the range of numbers they hold
+**Length of a comment ona  single line in an IDE

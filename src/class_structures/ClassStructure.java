@@ -25,4 +25,5 @@ public class ClassStructure {
 
         System.err.println("Error output on a new line.");
     }
+
 }
