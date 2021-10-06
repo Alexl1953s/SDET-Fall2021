@@ -116,7 +116,7 @@ The long data type is a 64-bit or 8 bytes two's complement integer. Its value-ra
 maximum value is 9,223,372,036,854,775,807. Its default value is 0. The long data type is used when you need a 
 range of values more than those provided by int.
 
-When a number is present in the code, it is called a literal. By default, Java assumes you are defining an int value with a literal. In this example, the number listed is bigger than what fits in an int. Remember, you aren’t expected to memorize the maximum value for an int. The exam will include it in the question if it comes up.
+When a number is present in the code, it is called a *literal*. By default, Java assumes you are defining an int value with a literal. In this example, the number listed is bigger than what fits in an int. Remember, you aren’t expected to memorize the maximum value for an int. The exam will include it in the question if it comes up.
 long max = 3123456789; // DOES NOT COMPILE
 Java complains the number is out of range. And it is—for an int. However, we don’t
 have an int. The solution is to add the character L to the number: long max = 3123456789L; // now Java knows it is a long
