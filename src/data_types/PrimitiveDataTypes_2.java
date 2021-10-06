@@ -10,7 +10,7 @@ public class PrimitiveDataTypes_2 {
         System.out.println(numberOfViews);
 
         // float data types should include "f" or "F" at the end of the value
-        float engineSize = 44165165.5f;
+        float engineSize = 4.5f;
 
         System.out.println(engineSize);
 
