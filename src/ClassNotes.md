@@ -35,6 +35,27 @@ The *import* statement is used to declare the classes to use in our class.
 If the classes we use are in the same package as our class, 
 we may NOT need to declare the import statement for these classes.
 
+##main() method
+
+A Java program begins execution with its _main()_ method. A _main()_ method is the gateway 
+between the startup of a Java process, which is managed by the **Java Virtual Machine (JVM)**, 
+and the beginning of the programmer’s code. The JVM calls on the underlying system to allocate 
+memory and CPU time, access files, and so on.
+The main() method lets us hook our code into this process, keeping it alive long enough to do the work we’ve coded.
+
+_EX_: 
+```java
+package class_structures;
+
+public class ClassStructure {
+    
+    // main() method's signature
+    public static void main(String[] args){
+        
+    }
+}
+```
+
 ###Reserved keywords in Java:
 Java has a set of *keywords* that are reserved words that cannot be used 
 as variables, methods, classes, or any other identifiers. There are 53 keywords.
@@ -51,6 +72,9 @@ _Non-primitive_ data types: The non-primitive data types include Classes, Interf
 
 There are 8 types of primitive data types:
 byte, short, int, long, float, double, boolean, char.
+
+**NOTE:** Java is a statically-typed programming language. It means, all variables must be declared before its use. 
+That is why we need to declare variable's type and name. 
 
 ###Byte
 
