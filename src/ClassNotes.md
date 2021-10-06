@@ -84,6 +84,13 @@ It refers to objects. It is not pre-defined. It is created by the programmer if 
 
 _Non-primitive_ data types The non-primitive data types include Classes, Interfaces, and Arrays.
 
+- are not pre-defined except the String.
+- all reference type begins with Uppercase letter.
+- non-primitive types have all the same size.
+- they can be used to invoke or call methods.
+- they can be null.
+- JVM allocates 8 bytes for each reference variable, by default.
+
 There are 8 types of primitive data types:
 byte, short, int, long, float, double, boolean, char.
 
