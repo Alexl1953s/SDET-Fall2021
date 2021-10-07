@@ -19,5 +19,24 @@ public class PrimitiveDataTypes_2 {
 
         System.out.println(pi);
 
+        // boolean data type is a primitive type that has only 2 states
+        // boolean can only have true or false values
+
+        boolean isPresent;
+        isPresent = true;
+        isPresent = false;
+
+        boolean has4Tires = true;
+        boolean isCold = false;
+
+        // char [character] that can only hold one character as a value
+        // they can be used for different scenarios EX: grades, gender etc.
+        // chars use single quotes to wrap it's values
+
+        char gender = 'F';
+        char gradeExcellent = 'A';
+        char gradeGood = 'B';
+        char ampersand = '&';
+
     }
 }

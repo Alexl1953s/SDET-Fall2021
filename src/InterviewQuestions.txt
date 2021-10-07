@@ -21,5 +21,23 @@
     - the words that have meaning there are around 53 of them
     EX: public, class, boolean and some more words.
 
-**Ask Mansur about the history of different data types and the range of numbers they hold
-**Length of a comment ona  single line in an IDE
+**Length of a comment on a single line in an IDE
+
+7. What are data types and how many types there are?
+    -2 types: Primitive and Non-primitive
+        - Primitive [simple, basic]: byte, int, long, double, float, boolean, short, char.
+            - Primitive data types are pre defined [means these already have been defined by Java]
+            - they start with lower case letter
+            - size is fixed
+        - Non-primitive: Objects, String, System etc.
+
+8. Long data type?
+    -EX: long numberOfViews = 1_000_000_000L;
+
+9. What is a variable in Java?
+    - box to store an information or piece of data
+    - to declare a variable we first need to provide a data type for it and then provide a name for it and end it with semi colon;
+    - [data type] [name of variable] = [value] [;] -> syntax on initialization of a variable;
+
+10. Is it possible to declare and initialize multiple variables inline?
+    - int a, b, c = 2; -> this is valid 3 are declared and only 1 is initialized [c=2];
