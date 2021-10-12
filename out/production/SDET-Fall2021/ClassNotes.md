@@ -160,3 +160,15 @@ values, such as currency. Its default value is 0.0d.
 
 _EX:_ double pi = 3.1415926535 8979323846;
 
+###NOTE:
+Double or Float numbers. _EX:_ 12.345;
+
+12 -> is a whole part or integral part;
+
+"." -> decimal point [floating point];
+
+345 -> fractional part;
+
+###Type casting 
+NOTE: Takes precedence over mathematical operators
+

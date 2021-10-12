@@ -41,3 +41,39 @@
 
 10. Is it possible to declare and initialize multiple variables inline?
     - int a, b, c = 2; -> this is valid 3 are declared and only 1 is initialized [c=2];
+
+11. What is main method? And it's syntax?
+    - public static void main(String[] args){}
+    - we declare and initialize local variables
+    - main() it's the entry point
+    - gateway to our program or application to start executing
+12. {} -> curly braces;
+    [] -> brackets or square brackets;
+    () -> parentheses;
+    ; -> semi colon;
+    : -> colon;
+    , -> comma;
+    . -> dot;
+    / -> slash or forward slash;
+    | -> pipe;
+    \ -> back slash;
+    '' -> single quote;
+    "" -> double quotes;
+    * -> asterisk;
+    & -> ampersand;
+    ^ -> caret;
+    # -> pound;
+    @ -> at the rate;
+
+13. char variable1 = 'a', variable2;
+    variable2 = "Hello"; // compile error because variable2 is char type but I am trying to assign String to it
+
+14. primitive data types?
+    - 8 of them: byte, short, int, float, long, char, boolean, double;
+    - they have predefined data types and size;
+    - they do not have any methods;
+    - starts with lower case;
+
+
+
+

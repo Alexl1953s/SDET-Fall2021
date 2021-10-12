@@ -38,5 +38,13 @@ public class PrimitiveDataTypes_2 {
         char gradeGood = 'B';
         char ampersand = '&';
 
+        // decimal value of character [letter] G is 71 in ASCII table
+        char decimalOfLetterG = 71;
+        System.out.println("Letter G is 71 in decimal value: " + decimalOfLetterG);
+        // decimal value of character [ is 91 in ASCII table
+        char openingSquareBracket = 91;
+        System.out.println("Character '[' is 91 in decimal value: " + openingSquareBracket);
+
+
     }
 }
