@@ -45,22 +45,5 @@ public class ArithmeticOperators {
 
         int finalOut2 = x * y / 3;
         System.out.println(finalOut2);
-
-        double salary = 100_000;
-        double yearlyIncrease = 1.03;
-
-        // What is your salary after 5 years?
-        double secondYearSalary = salary * yearlyIncrease + salary;
-        System.out.println("After the first year: " + secondYearSalary);
-
-        double thirdYearSalary = secondYearSalary * yearlyIncrease + secondYearSalary;
-        System.out.println("After the second year: " + thirdYearSalary);
-
-        double fourthYearSalary = thirdYearSalary * yearlyIncrease + thirdYearSalary;
-        System.out.println("After the third year: " + fourthYearSalary);
-
-        double fifthYearSalary = fourthYearSalary * yearlyIncrease + fourthYearSalary;
-        System.out.println("After the fourth year: " + fifthYearSalary);
-
     }
 }

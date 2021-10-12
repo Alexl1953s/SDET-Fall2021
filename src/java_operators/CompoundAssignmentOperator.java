@@ -34,11 +34,8 @@ public class CompoundAssignmentOperator {
 
         System.out.println(13.4 / 2);
         System.out.println(13.4 % 2); // 13 % 2 -> 1 and then the fraction part is .4
-        System.out.printf("The rounded output: %.1f", 12.7 % 2); // 12 % 2 -> 0 and then the fraction is rounded as close as
+        System.out.println(12.7 % 2); // 12 % 2 -> 0 and then the fraction is rounded as close as
         // possible to the fraction
-        System.out.println();
-        System.out.println(15.6 % 2);
-        System.out.println(20.1 % 2);
 
         double pi = 3.14;
         // String concatenation is basically adding 2 string objects
