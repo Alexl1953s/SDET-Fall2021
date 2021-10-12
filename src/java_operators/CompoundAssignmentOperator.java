@@ -10,14 +10,38 @@ public class CompoundAssignmentOperator {
 //        y = y + x;
 //        System.out.println(y);
 
-        // this operation is called compound assignment operator
+        // This operation is called COMPOUND ASSIGNMENT OPERATOR
         // it is same as y = y + x -> y += x;
+        // BELOW ARE THE EXAMPLES:
+        /*
+         *   x = x + y -> x += y
+         *   x = x - y -> x -= y
+         *   x = x * y -> x *= y
+         *   x = x / y -> x /= y
+         *   x = x % y -> x %= y
+         */
         y += x;
         System.out.println(y);
 
         y -= x; // y = y -x
         y *= x;
         y /= x;
+
+        // Given an initial salary
+        // calculate the salary raise with bonuses after 5 years
+        // using augmented assignment operator or compound assignment operator
+        double salary = 100_000;
+        double yearlyIncrease = 0.03;
+        // the first year
+        System.out.println("The first year salary: " + salary);
+        // the second year
+        System.out.println("The second year salary with bonus: " + (salary += salary * yearlyIncrease));
+        // the third year
+        System.out.print("The third year salary with bonus: " + (salary += salary * yearlyIncrease));
+        // the fourth year
+        System.out.print("The fourth year salary with bonus: " + (salary += salary * yearlyIncrease));
+        // the fifth year
+        System.out.print("The fifth year salary with bonus: " + (salary += salary * yearlyIncrease));
 
 
         // % modulus will give us the remainder after dividing a number by another
@@ -53,8 +77,6 @@ public class CompoundAssignmentOperator {
 
         String helloWorld = hello + " to " + world + " Mars!";
         System.out.println(helloWorld);
-
-
 
     }
 }
