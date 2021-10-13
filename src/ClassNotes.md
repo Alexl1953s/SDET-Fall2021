@@ -172,3 +172,70 @@ Double or Float numbers. _EX:_ 12.345;
 ###Type casting 
 NOTE: Takes precedence over mathematical operators
 
+#Java Operators
+
+A Java _operator_ is a special symbol that can be applied to a set of variables, 
+values, or literals—referred to as operands—and that returns a result. Three flavors 
+of operators are available in Java: _unary, binary_, and _ternary_. 
+These types of operators can be applied to one, two, or three operands, respectively. 
+
+Java operators are not necessarily evaluated from _left-to-right_ order. For example, 
+the following Java expression is actually evaluated from _right-to-left_ given the specific operators involved.
+
+##Binary Arithmetic Operators
+
+_Binary operators_ by far the most common operators in the Java language. They can be used to perform 
+mathematical operations on variables, create logical expressions, as well as perform basic variable assignments. 
+Binary operators are commonly combined in complex expressions with more than _two variables_; therefore, _operator 
+precedence_ is very important in evaluating expressions.
+
+
+##Arithmetic operators
+
+_Arithmetic operators_ are often encountered in early mathematics and include addition
+(+), subtraction (-), multiplication (*), division (/), and modulus (%).
+
+EX: double num = 2 + 3 * (1 + 6);
+On this example the order is as follows: 1- parenthesis; 2- multiplication; 3- addition; and 4- the result gets 
+upcasted from int to double and gets assigned to _num_. And this is called _order of operation_ by decreasing
+the order of _operator precedence_. If two operators have the same level of precedence, 
+then Java guarantees _left-to-right_ evaluation.
+
+_Multiplicative_ operators (*, /, %) have a higher order of precedence than the _additive_ operators (+, -).
+EX: int x = 2 * 5 + 3 * 4 - 8;
+you first evaluate the 2 * 5 and 3 * 4, which reduces the expression to the following: int x = 10 + 12 - 8; <br>
+Then, you evaluate the remaining terms in _left-to-right_ order, resulting in a value of x of 14.
+
+All of the arithmetic operators may be applied to any Java primitives, except _boolean_ and _String_. Furthermore, 
+only the addition operators + and += may be applied to String values, which results in _String concatenation_.
+
+One more Arithmetic operator is _modulus_. The _modulus_, or _remainder operator_, is simply the remainder when two 
+numbers are divided. For example, 9 divided by 3 divides evenly and has no remainder; therefore, the remainder, 
+or 9 % 3, is 0. On the other hand, 11 divided by 3 does not divide evenly; therefore, the remainder, or 11 % 3, is 2.
+
+###_Numeric Promotion Rules_
+1. If two values have different data types, Java will automatically promote one of the val- ues to the larger 
+   of the two data types.
+2. If one of the values is integral and the other is floating-point, Java will automatically promote the 
+   integral value to the floating-point value’s data type.
+3.  Smaller data types, namely byte, short, and char, are first promoted to int any time they’re used with a Java 
+    binary arithmetic operator, even if neither of the operands is int.
+4.  Smaller data types, namely byte, short, and char, are first promoted to int any time they’re used with a Java 
+    binary arithmetic operator, even if neither of the operands is int.
+    After all promotion has occurred and the operands have the same data type, the result- ing value will have 
+    the same data type as its promoted operands.
+    
+EX: What is the data type of _x * y / z_ ? <br>
+short x = 14; <br>
+float y = 13; <br>
+double z = 30; <br>
+In this case, we must apply all of the rules. First, x will automatically be promoted to int solely because it is a 
+short and it is being used in an arithmetic binary operation. The promoted x value will then be automatically promoted 
+to a float so that it can be multiplied with y. The result of x * y will then be automatically promoted to a double, 
+so that it can be multiplied with z, resulting in a double value.
+
+##Unary Operators
+
+A _unary operator_ is one that requires exactly _one_ operand, or variable, to function.
+
+

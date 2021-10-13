@@ -45,5 +45,31 @@ public class ArithmeticOperators {
 
         int finalOut2 = x * y / 3;
         System.out.println(finalOut2);
+
+        // order precedence for arithmetic operations
+        // highest precedence is () parenthesis
+        // second -> *, /, %
+        // third -> +, - -> will go from left - to - right order
+        System.out.println("The order precedence: " + (4 + 3 % 2 * 5));
+        System.out.println("The order precedence: " + (4 * 2 / 2 % 3));
+        System.out.println( 6 + 2 - 3 * (4 + (5 - 3)%2));
+
+        int dividend = 4; // 4.0
+        double divisor = 2.2;
+
+        System.out.println("Both operands are converted to double for this operation: " + dividend/divisor); // both of the operands are going to convert implicitly to double type
+
+        // when perform arithmetic operation of 2 chars their decimal representation from ASCII table will be added/subtracted/ etc.
+        char charA = 'a';
+        char charB = 'b';
+        int aBSum = charA + charB;
+        System.out.println("'a' plus 'b' = " + aBSum);
+
+        // x * y / z ?
+        short shNum = 14;
+        float floatNum = 13;
+        double doubleNum = 30;
+
+        double nums = shNum * floatNum / doubleNum;
     }
 }

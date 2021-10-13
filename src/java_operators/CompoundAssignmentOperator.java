@@ -78,5 +78,7 @@ public class CompoundAssignmentOperator {
         String helloWorld = hello + " to " + world + " Mars!";
         System.out.println(helloWorld);
 
+        //i += 2; // i = i + 2
+
     }
 }

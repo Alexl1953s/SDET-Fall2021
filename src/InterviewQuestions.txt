@@ -74,6 +74,24 @@
     - they do not have any methods;
     - starts with lower case;
 
+15. What is type casting?
+    - It is converting one data type to another;
+    - Implicit and Explicit
+        - Implicit [automatically] -> it happens automatically when we convert from smaller to larger data type;
+        - Explicit [manually] -> when we convert from larger to smaller data type, because we might loose some value in our data
+        EX: Explicit type casting - from double to int
+        double d1 = 12.34;
+        int i = d1 -> incompatible types compile error and in order to fix this we need to manually type cast it
+        as follows int i = (int) d1; Now variable i has the value of 12;
 
+16. Which of the below will compile?
+    - int x = 1.0; // Not compile
+    - short y = 1223445; // Not compile because short can only store up tp 32,767
+    - long l1 = 12L; // Compile as long as the value has the postfix of 'l' or 'L'
+    - int i = 999F; // Not compile because 'f' is only added to float data type as a postfix
 
+17. short sh1 = 12;
+    short sh2 = 10;
+    short shSum = sh1 + sh2; // Not compile because Java will convert both of the operands to an int data type only then it will complete the
+    // math operation
 

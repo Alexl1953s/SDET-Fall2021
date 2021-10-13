@@ -54,6 +54,12 @@ public class PrimitiveDataTypes_1 {
         System.out.println(numberOfLikes);
         System.out.println(numberOfFollowers);
 
+        short sh = (short) 1223445;
+        System.out.println("The short " + sh);
+
+        short sh1 = 12;
+        short sh2 = 10;
+        short shSum = (short)(sh1 + sh2);
 
     }
 
