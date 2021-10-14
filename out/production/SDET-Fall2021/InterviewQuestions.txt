@@ -95,3 +95,19 @@
     short shSum = sh1 + sh2; // Not compile because Java will convert both of the operands to an int data type only then it will complete the
     // math operation
 
+18. int x = 3;
+
+    int y = ++x * 5 / x-- + --x; // highest precedence is auto increment/decrement
+    ++x -> pre increment - increments or increases the value of the variable by 1 in the same statement
+    --x -> pre decrement - decrements or decreases the value of the variable by 1 in the same statement
+    x++ -> post increment - increases the value of that variable by 1 on the next statement
+    x-- -> post decrement - decrements or decreases the value of the variable by 1 on the next statement
+
+    1. 4 * 5 / x-- + --x;
+    2. 4 * 5 / 4 + --x;
+    3. 4 * 5 / 4 + 2;
+    4. 20 / 4 + 2;
+    5. 5 + 2;
+    6. y = 7.
+
+19.

@@ -1,4 +1,4 @@
-package java_operators;
+package java_operators_oca_ch_2;
 
 public class ArithmeticOperators {
 

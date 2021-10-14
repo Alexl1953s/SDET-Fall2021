@@ -1,8 +1,8 @@
-package class_structures;
+package class_structures_oca_ch_1;
 
 //import java.util.Date;
 //import java.util.Random;
-import data_types.*;
+import data_types_oca_ch_1.*;
 //import data_types.PrimitiveDataTypes_2;
 
 

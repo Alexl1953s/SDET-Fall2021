@@ -1,4 +1,4 @@
-package java_operators;
+package java_operators_oca_ch_2;
 
 public class ComparisonOperator {
 
@@ -57,8 +57,7 @@ public class ComparisonOperator {
         boolean isGreaterThanOrEqual = var1 >= var2;
         System.out.println("Is var1 greater than or equal to var2? " + isGreaterThanOrEqual);
 
-        boolean isLessThanOrEqual = var1 <= var2;
-        System.out.println("Is var1 less than or equal to var2? " + isLessThanOrEqual);
+
 
     }
 }

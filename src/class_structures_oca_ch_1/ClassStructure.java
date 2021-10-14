@@ -1,4 +1,4 @@
-package class_structures;
+package class_structures_oca_ch_1;
 
 /**
  * The purpose of Javadoc comment is to make the user [developer, programmer] to pay attention to read it.

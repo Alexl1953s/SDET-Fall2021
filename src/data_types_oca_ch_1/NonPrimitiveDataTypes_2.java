@@ -1,4 +1,4 @@
-package data_types;
+package data_types_oca_ch_1;
 
 public class NonPrimitiveDataTypes_2 {
 
