@@ -10,7 +10,7 @@ name.
 
 Class example:
 ```java
-1. package class_structures;
+1. package class_structures_oca_ch_1;
 2.
 3. public class ClassStructure {
 4.    
@@ -24,7 +24,7 @@ The *class* keyword indicates you’re defining a class.
 
 *ClassStructure* gives the name of the class.
 
-Package name is *class_structures*.
+Package name is *class_structures_oca_ch_1*.
 The package statement cannot be inside or behind the class 
 definition, if you put it inside or behind the definition of the class, the code of 
 the class will be compiled immediately.
@@ -43,15 +43,16 @@ and the beginning of the programmer’s code. The JVM calls on the underlying sy
 memory and CPU time, access files, and so on.
 The main() method lets us hook our code into this process, keeping it alive long enough to do the work we’ve coded.
 
-_EX_: 
+_EX_:
+
 ```java
-package class_structures;
+package class_structures_oca_ch_1;
 
 public class ClassStructure {
-    
+
     // main() method's signature
-    public static void main(String[] args){
-        
+    public static void main(String[] args) {
+
     }
 }
 ```

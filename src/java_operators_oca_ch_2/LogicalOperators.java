@@ -38,7 +38,7 @@ public class LogicalOperators {
         System.out.println("The result: " + b6);
 
         int x = 6;
-        boolean y = x > 6 || x++ <= 7 && x > 6; // Page 65 of the OCA book for this example
+        boolean y = x > 6 && x < 6 || x++ <= 7 && x > 6 && x == 7; // Page 65 of the OCA book for this example
         System.out.println("The final value of y is: " + y + ". And the value of x is: " + x);
 
         // XOR -> Exclusive OR x ^ r
