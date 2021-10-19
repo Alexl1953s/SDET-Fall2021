@@ -110,4 +110,35 @@
     5. 5 + 2;
     6. y = 7.
 
-19.
+19. How do I insert a text in double quotes within my String variable?
+    EX: String s = "I \"love\" coding." -> Escape sequences help us insert special characters within our text
+    Expected output: I "love" coding.
+
+20. How to insert a new line within a text?
+    String s = "I \nlove \njava" -> used to insert a new line within a text
+
+21. What is explicit/implicit type casting?
+    Explicit type casting is converting a data type to another such as from larger to smaller data type;
+
+    EX: double num1 = 12.34;
+        int num2 = (int) num1; since double is larger data type than int we have to explicitly type cast it because
+        are using some data.
+    Implicit -> conversion of type from smaller to larger, it doesn't require any explicit casting;
+
+22. What are logical operators used for?
+    && and ||
+    && -> evaluates to true if both sides are true;
+    || -> evaluates to true if only one side is true;
+
+    EX: int x = 2;
+        int y = 3;
+
+        boolean bool = ++x == y && y++ >= x; //true because the value of x is 3 and y is also 3 until the next statement;
+
+23. Ternary operators gets the name from having 3 operands:
+    EX: exp1 ? exp2 : exp3
+        Boolean bool = 2 > 1 ? true : false;
+
+        x++ -> unary [single] operand;
+        int x = 1; int y = 2; x = x + y; -> binary;
+        x > y -> binary;
