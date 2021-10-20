@@ -28,10 +28,19 @@ public class ShoppingSitePractice {
                 "3. Daily outfit\n" +
                 "4. Scarves etc.";
 
-        boolean bool = gender == 'W' || gender == 'w' || gender == 'F' ||
-                gender == 'f';
-        System.out.println("The value of bool is: " + bool);
-        System.out.println("Here is our collections for you: \n" +
-                ( bool ? womensCollection : mensCollection));
+        // here we are checking if user input is one of these chars
+        // and if it is then bool variable gets assigned the outcome of this evaluation
+        boolean isValidGender = gender == 'F' || gender == 'M';
+
+        String defaultMsg = "Please enter 'M' for male or 'F' for female!";
+        // We are checking if isValidGender is true or not, if true then we want to identify if the user is
+        // male or female, if 'M' then we want to display mensCollection and if 'F'
+        // then we will be displaying womensCollection
+        // in the scenario of invalid gender char entered we will be displaying
+        // the defaultMsg.
+        String displayCollection = isValidGender ? (gender == 'M' ? mensCollection : womensCollection) : defaultMsg;
+
+        System.out.println("Here is our collections for you: \n" + displayCollection);
+
     }
 }

@@ -142,3 +142,46 @@
         x++ -> unary [single] operand;
         int x = 1; int y = 2; x = x + y; -> binary;
         x > y -> binary;
+
+======================================================================================================================
+
+24. How can I swap the values of these 2 variables?
+
+    int x = 100;
+    int y = 10;
+
+    Expected output: x = 10 and y = 100;
+
+25. Will there be any compiler error for the initialization of the below variables?
+
+    int i = 65.0; // double can't be in int
+    float f = 23.76; // post fix 'F' or 'f'
+    long l = 1234567; // post fix of 'L' or 'l'
+    char c = "a"; // single quote should be used
+
+26. Depending on the test score result I want to print out if student has passed the the exam or not.
+
+    if the score is less than or equal to 50 I want to print out "FAIL"
+    and if greater than or equal to 50 then "PASS";
+    String pass = "PASS";
+    String fail = "FAIL";
+    int testResult = 73;
+
+27. Will this compile?
+
+    short s1 = 123;
+    short s2 = 456;
+
+    short sum = s1 + s2; // No, it won't compile because the arithmetic operations
+    // carry out in int data type. So the fix is [short sum = (short) s1 + s2]
+
+28. Are these 2 equal?
+
+    int i = 50;
+    double num = 50.00;
+
+    String result = i == num ? "Equal" : "Not equal"; // ternary operator
+    // equal because int and double are being compared so java will convert
+    // the smaller type to larger data type to perform this comparison operation
+
+
