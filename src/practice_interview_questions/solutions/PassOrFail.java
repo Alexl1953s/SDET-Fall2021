@@ -23,6 +23,5 @@ public class PassOrFail {
         String passOrFail = testResult > 50 ? pass : fail;
         System.out.println("You " + passOrFail + " the test.");
 
-
     }
 }
