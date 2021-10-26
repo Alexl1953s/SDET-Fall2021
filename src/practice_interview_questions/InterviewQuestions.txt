@@ -184,4 +184,60 @@
     // equal because int and double are being compared so java will convert
     // the smaller type to larger data type to perform this comparison operation
 
+29. What is a variable in java?
+
+    - variable is a storage that stores a data;
+    - a number, a character, boolean, class variables [objects] etc.
+    - to identify certain data from our application, it's variable name that determines which variable;
+    - it's convenient to store data
+    - it's reduces repetition, and redundancy
+    - easy to maintain or update;
+    - being able to control from one place vs many areas;
+
+30. Can operator be stored in a variable?
+
+    EX: String equalToSymbol = "=";
+    char equalToChar = '=';
+
+31. How do we compare 2 string variables?
+
+    EX: String a = "Devx";
+        String b = "devx";
+
+        boolean bool = a == b; // returns false because == operator is case sensitive;
+
+32. What is the purpose on using if statements?
+    - if statement is control flow
+    - to put a condition
+    - conditional statement
+    - it works with boolean expression or the expression should have boolean outcome
+    - if statements can be implemented/used without else statement
+
+    we also have else statements:
+    - which gets executed when if statements is false
+    - else statement cannot be without if
+
+33. Write a logic/code for thermostat?
+
+   // it's set on automatic which turns on the heater or AC
+   // depending on the current temp in your house
+   // if it's above desired temp then turnOnAC()
+   // else turnOnHeat() [if it's colder than desired temp]
+
+    Ex: int currentTemp = 60;
+        int desiredTemp = 72;
+
+        if(currentTemp <= desiredTemp){
+            System.out.println("Turn on the heater!");
+        } else {
+            System.out.println("Turn on the AC!");
+        }
+ ======================== ============ ============ ============
+    Convert the above if else to ternary operator:
+
+    Ex: int currentTemp = 60;
+        int desiredTemp = 72;
+
+     String heaterOrAc = currentTemp <= desiredTemp ? "Turn on the heater!" : "Turn on the AC!";
+     System.out.print(heaterOrAc);
 
