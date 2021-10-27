@@ -241,3 +241,35 @@
      String heaterOrAc = currentTemp <= desiredTemp ? "Turn on the heater!" : "Turn on the AC!";
      System.out.print(heaterOrAc);
 
+34. Given an int variable. Print out if it's even or odd using ternary operator?
+
+    EX: int num = 7;
+
+    // to find out if the number is even or odd, we use modulo [%] 2 and if the remainder is 0 then
+    // it is even and if it's not then it's odd.
+
+    String evenOrOdd = num % 2 == 0 ? "Even" : "Odd";
+    // we have a new variable string called evenOrOdd and we are seeing if num int variable is even or odd
+    // and for that we use modulo 2 to see if it's even or odd
+    // if it's equal to 0 then we will assign "Even" and if not then "Odd" will be assigned to evenOrOdd variable
+
+    // let's convert this to if/else
+    EX: int num = 7;
+
+    String evenOrOdd = "";
+
+    if (num % 2 == 1) {
+       evenOrOdd = "Odd";
+    } else {
+        evenOrOdd = "Even";
+    }
+
+    System.out.println(evenOrOdd);
+
+35. int x = 0;
+        x++; // 0
+        --x; // 0
+        x += 2; //
+        int y; // declaring
+        x +=y; // compile time error because 'y' has not been initialized yet
+        System.out.print(x);

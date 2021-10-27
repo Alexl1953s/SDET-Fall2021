@@ -23,5 +23,14 @@ public class PassOrFail {
         String passOrFail = testResult > 50 ? pass : fail;
         System.out.println("You " + passOrFail + " the test.");
 
+//        int x = 0;
+//        x++; // 0
+//        --x; // 0
+//        x = x++ + 2 + ++x; // x = x++ + 2; -> 2
+//        System.out.println(x);
+//        int y; // declaring
+//        x +=y; // compile time error because 'y' has not been initialized yet
+//        System.out.print(x);
+
     }
 }
