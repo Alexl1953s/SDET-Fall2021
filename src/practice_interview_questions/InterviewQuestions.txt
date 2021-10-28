@@ -92,8 +92,10 @@
 
 17. short sh1 = 12;
     short sh2 = 10;
-    short shSum = sh1 + sh2; // Not compile because Java will convert both of the operands to an int data type only then it will complete the
-    // math operation
+    short shSum = sh1 + sh2; // Not compile because Java will convert both of the operands to an int data
+    // type only then it will complete the math operation
+    // so the solution would be either to change the data type of shSum to int or
+    // explicitly type cast the like such [short shSum = (short) sh1 + sh2];
 
 18. int x = 3;
 
@@ -273,3 +275,28 @@
         int y; // declaring
         x +=y; // compile time error because 'y' has not been initialized yet
         System.out.print(x);
+
+36. Constant variables in java? What are they?
+
+    - final keyword is used when initializing it;
+    - naming is all caps; [EX: final String DOB]
+    - their values cannot be changed or reassigned;
+
+37. Different types of type casting?
+    - 2 types: implicit and explicit
+        - Implicit [automatic] -> data type conversion happens automatically [EX: smaller data type to larger data type]
+        - Explicit [manually] -> has to be manually type casted from larger to smaller [EX: from double to int]
+            - why should it be explicit: it's java's way of warning us and agreeing to loosing some data.
+
+38. Help me create a class called "MyClass" and it's not in the default package
+so the package name is "my_package";
+
+    package my_package;
+
+    public class MyClass {
+
+        public static void main(String [] args) {
+
+            System.out.print("Devxschool");
+        }
+    }

@@ -13,7 +13,7 @@ public class IfElseWithoutElseIf {
         // then once any of them evaluates to true and gets executed
         // the rest of the else-if statements will not be checked
 
-        int age = 5;
+        int age = 65;
 
         if (age > 60) {
             System.out.println("You are in your 60s.");
