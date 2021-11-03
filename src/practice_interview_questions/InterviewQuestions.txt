@@ -313,6 +313,37 @@
     int age = 32;
     String name = "Baha";
 
-41.
+41. / -> slash
+    " -> double quotes
+    {} -> curly braces
+    () -> parenthesis
+    [] -> square brackets
+    ; -> semi colon
+    - -> hyphen or dash
+    = -> equal for assignment
+    ? -> question mark
+    : -> colon
+    | -> pipe
 
+42. Take an input from user for int, double, char, String?
 
+    Scanner scan = new Scanner(System.in);
+    int i = scan.nextInt();
+    double num = scan.nextDouble();
+    char a = scan.next().charAt(0);
+    String s = scan.nextLine() or next(); -> next() - doesn't read white space.
+    [EX: white shark -> it can be read by nextLine() as one string variable]
+
+    - What are variables?
+    Variable is a storage that stores some data.
+
+    - declaration vs initialization of variables?
+    to declare a variable we need to give it a data type and a name. [EX: int a;]
+
+    a = 35; -> initialized the variable a with a value of 35;
+
+    - convert the above int variable to a double:
+    double num = a; -> this is called implicit type casting which happens automatically
+
+    - convert num to byte data type?
+    byte b = (byte) num; -> explicit data type casting which is manual;
