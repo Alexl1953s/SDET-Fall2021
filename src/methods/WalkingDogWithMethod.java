@@ -35,7 +35,15 @@ public class WalkingDogWithMethod {
 
     }
 
-    public static void walkTheDog(String timeOfDay){
+    // public - which is access modifier and it's accessible from any other class, global.
+    // private - access modifier only accessible within the same class
+    // protected - access modifier accessible within the same package
+    // default - accessible only within the same package but without using "default" word
+
+    // static - optional specifier which makes the method belong to a class
+    // and it makes the method accessible from other static methods such as main() method.
+
+    static void walkTheDog(String timeOfDay){
 
         String timeToDress = timeOfDay + " walk\n" +
                 "1. dress up put on a jacket\n" +

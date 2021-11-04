@@ -347,3 +347,7 @@
 
     - convert num to byte data type?
     byte b = (byte) num; -> explicit data type casting which is manual;
+
+43.  What is a method?
+    - method is a function, to combine some actions to use later for more reusability;
+    - method is a block of code which performs some tasks;

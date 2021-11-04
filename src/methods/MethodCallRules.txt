@@ -1,0 +1,14 @@
+###############
+
+2 types of methods: Static and non static
+
+- Static -> members belong to a class
+- Non static -> members belong to an object
+
+-- Static methods can be called from both static and non static methods directly
+without creating an object of the class;
+
+-- Non static methods can only be called from static methods by creating an object of the class;
+-- Non static methods can call other non static methods directly;
+
+################
