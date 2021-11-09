@@ -1,0 +1,25 @@
+###############
+
+2 types of methods: Static and non static
+
+- Static -> members[methods and variables] belong to a class
+- Non static -> members[methods and variables] belong to an object
+
+-- Static methods can be called from both static and non static methods directly
+without creating an object of the class;
+
+-- Non static methods can only be called from static methods by creating an object of the class;
+-- Non static methods can call other non static methods directly;
+
+################
+
+How do we create an object?
+
+public class MyClass {
+
+    public static void main(String [] args) {
+
+        MyClass myObject = new MyClass(); -> this is how we create an object of any class
+        // class name then give any name to your object and = sign followed by new and class name
+    }
+}
