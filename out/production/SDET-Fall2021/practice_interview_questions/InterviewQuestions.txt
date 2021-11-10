@@ -351,3 +351,44 @@
 43.  What is a method?
     - method is a function, to combine some actions to use later for more reusability;
     - method is a block of code which performs some tasks;
+
+44. Syntax of method definition?
+
+    - method is a block of code that performs defined action
+
+    public static int getNumber (int num1, int num2) {
+
+    }
+
+45. Difference between static and non static methods?
+
+    - static:
+        - they belong to the class;
+        - they can be called from both static and non static methods within the same class without
+        creating an object of that class;
+
+    - non static:
+        - they belong to the object;
+        - they can be called from other non static methods directly without creating an object;
+        - in order to call non static method from a static method, object needs to be created;
+
+46. How do I create a non static method that returns a boolean and takes double as a parameter?
+
+    public boolean isAbove (double temp) {
+        return false;
+    }
+
+    create a method that takes int as param, and returns String and it is static?
+
+    public static String printAge (int age) {
+        String personAge = "" + age;
+        return personAge;
+    }
+
+    create a method that doesn't return any value but prints out "Welcome!", non static;
+    public void printWelcome () {
+         System.out.println("Welcome!");
+    }
+
+    * abbreviation is shortened form of a word.
+        EX: IL, MI, ME -> state name abbreviations;
