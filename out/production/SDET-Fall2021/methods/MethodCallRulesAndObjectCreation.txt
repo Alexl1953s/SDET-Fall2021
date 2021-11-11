@@ -9,7 +9,7 @@
 without creating an object of the class;
 
 -- Non static methods can only be called from static methods by creating an object of the class;
--- Non static methods can call other non static methods directly;
+-- Non static methods can call other non static methods directly without creating an object of that class;
 
 ################
 
