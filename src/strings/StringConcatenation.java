@@ -36,11 +36,10 @@ public class StringConcatenation {
         String text = studentName.concat(" loves " + progLang + " and " + studentName + "! Student ID: " + studentId);
         System.out.println(text);
 
-        String spaceX = "Falcon";
+        String spaceX = "Falcon"; // Falcon.concat("x") -> 1000; -> Falconxxxxxxxxxx...1000 times.
         String teslaModel = "Model X";
 
         System.out.println(spaceX.concat(teslaModel));
-
 
     }
 }
