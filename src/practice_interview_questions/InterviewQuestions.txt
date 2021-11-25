@@ -392,3 +392,34 @@
 
     * abbreviation is shortened form of a word.
         EX: IL, MI, ME -> state name abbreviations;
+
+47. Tell me about Strings in Java?
+    - String is a class that has built in set of methods;
+    - Strings are immutable, meaning that once the object is assigned to a reference variable it cannot be changed;
+    - Some methods are: substring() which derives the part of string;
+    - String.charAt() - helps us find the character at specified index;
+    - String.concat() - combines 2 strings at the edn of another;
+    - String.equals() - which compares the references;
+    - toUpperCase(), toLowerCase();
+    - indexOf() - returns an int, which defines the index of a particular char or a String;
+    - trim() - gets rid of spaces from both sides of the string, front and end;
+    - lastIndexOf() - returns int which is the index of specified regex;
+    - equalsIgnoreCase() - returns boolean [true/false] by comparing two references by ignoring case;
+    - contains() - returns boolean, method checks whether a string contains a sequence of characters.
+    - replace() - takes 2 params, returns string by replacing first occurrence of the first param with the second one;
+    - replaceAll() - takes 2 params, returns a string by replacing all occurrences of the first param with second param;
+    EX:
+    String s1 = "Devx Devx";
+    s1 = s1.replace("vx", "vv"); // Devv Devx
+    s1 = s1.replaceAll("e", "u"); // Duvv Duvv
+
+    - startsWith() - returns boolean, method checks whether a string starts with the specified character(s).
+    EX: String str = "Devx School is a start point for IT industry";
+    if (str.startsWith("D"));
+
+    - endsWith() - returns boolean, method checks whether a string ends with the specified character(s).
+    - length() - returns int which is the number of characters [elements] in the string;
+    - isEmpty() - returns boolean, by checking if the given String contains any char of not;
+
+
+
