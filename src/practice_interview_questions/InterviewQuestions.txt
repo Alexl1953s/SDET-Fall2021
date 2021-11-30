@@ -421,5 +421,37 @@
     - length() - returns int which is the number of characters [elements] in the string;
     - isEmpty() - returns boolean, by checking if the given String contains any char of not;
 
+48. Tell me about arrays in java?
+    - Array is a fixed size collection of elements of the same data type;
+    - Once the size has been given can't be changed
+    - supports primitive and non primitive;
+    - arrays are used for manipulating over collection of data;
+    - we access the elements of an array by index, always starts with index 0 for the first element;
+    - fast access to elements, the elements in the beginning or middle or last indexes will take the same time;
+    - immutable size because the size is provided while creating an array and it is fixed, if elements
+    need to be added into an existing array then we need to create copy of it and only then provide a
+    bigger size to add more elements;
+    - array elements are mutable because we can update the values of indices;
+
+49. Methods in Arrays class?
+    - length -> length is a final variable applicable for arrays.
+    With the help of the length variable, we can obtain the size of the array.
+    - toString() -> static method that converts the elements of an array to String; EX: int[] nums -> sout(Arrays.toString(nums));
+    - sort() -> static method that returns an array by sorting it's elements in an ascending order;
+    - copyOf() -> creates a copy of an existing array, it is safe way to copy an array;
+    - binarySearch() -> returns int index of an element in the array, but only guarantees return the index correctly
+    if the array is sorted already;
+    EX: String[] cars = {"Lexus", "BMW", "Ford", "Chevy"};
+        Arrays.sort(cars); // {"BMW", "Chevy", "Ford", "Lexus"}
+        Arrays.binarySearch(cars, "Ford") -> returns 2 which is the index of "Ford";
+
+50. String[] cities = {"Los Angeles", "San Francisco", "Chicago", "New York", "Boston"};
+
+    - write a method that returns an int array which has the same length as the cities array
+    and at each index it should have the number of times letter 'l' or 'L' appears?
+
+    public static int[] countNumberOfCharL (String[] arr){}
+
+    Expected output: [2, 0, 0, 0, 0]
 
 
