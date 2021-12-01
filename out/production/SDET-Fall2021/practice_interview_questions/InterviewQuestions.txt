@@ -428,9 +428,10 @@
     - arrays are used for manipulating over collection of data;
     - we access the elements of an array by index, always starts with index 0 for the first element;
     - fast access to elements, the elements in the beginning or middle or last indexes will take the same time;
-    - immutable because the size is provided while creating an array and it is fixed, if elements
+    - immutable size because the size is provided while creating an array and it is fixed, if elements
     need to be added into an existing array then we need to create copy of it and only then provide a
     bigger size to add more elements;
+    - array elements are mutable because we can update the values of indices;
 
 49. Methods in Arrays class?
     - length -> length is a final variable applicable for arrays.
@@ -452,5 +453,23 @@
     public static int[] countNumberOfCharL (String[] arr){}
 
     Expected output: [2, 0, 0, 0, 0]
+
+51. How do we access the elements of an array?
+    int[] numbers = {1, 4, 7, 8};
+    numbers[2] = numbers[2] + 5; // we just added 5 to the element at index 2 and saved it back to the same index -> numbers[2] += 5;
+
+    for (int n : numbers ) {
+        System.out.print(n + " "); // 1 4 7 8
+    }
+
+52. String [][] smartPhones = { {"Iphone x", "Iphone 11"}, {"Samsung galaxy", "Samsung Note10"}, {"Windows Phone"} };
+
+    for (int i = 0; i < smartPhones.length; i++) {
+
+        for (int j = 0; j < smartPhones[i].length; j++) {
+
+             System.out.println(smartPhones[i][j]);
+        }
+    }
 
 

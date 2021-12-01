@@ -454,4 +454,22 @@
 
     Expected output: [2, 0, 0, 0, 0]
 
+51. How do we access the elements of an array?
+    int[] numbers = {1, 4, 7, 8};
+    numbers[2] = numbers[2] + 5; // we just added 5 to the element at index 2 and saved it back to the same index -> numbers[2] += 5;
+
+    for (int n : numbers ) {
+        System.out.print(n + " "); // 1 4 7 8
+    }
+
+52. String [][] smartPhones = { {"Iphone x", "Iphone 11"}, {"Samsung galaxy", "Samsung Note10"}, {"Windows Phone"} };
+
+    for (int i = 0; i < smartPhones.length; i++) {
+
+        for (int j = 0; j < smartPhones[i].length; j++) {
+
+             System.out.println(smartPhones[i][j]);
+        }
+    }
+
 
