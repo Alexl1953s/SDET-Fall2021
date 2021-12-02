@@ -472,4 +472,29 @@
         }
     }
 
+53. Arraylist:
 
+    ArrayList<Integer> nameForList = new ArrayList<>();
+
+    - Collection of objects
+    - resizable
+    - elements can be changed: we can add elements
+    - elements can be updated, with the help of set(index, element)
+    - we can add elements at certain positions -> listName.add(index, value)
+
+54. Autoboxing is converting primitive to wrapper class objects
+    Unboxing is converting from wrapper object to primitive
+
+55. Wrapper classes are classes that wrap primitives to Objects.
+    - wrapper classes also have methods that can help us parse the values etc.
+
+56. Parse String into int:
+    - String ageString = "45";
+    - int i = Integer.parseInt(ageString);
+
+57. How do we get element from an array by their indices?
+    ArrayList<String> nameList = new ArrayList<>();
+    nameList.add("Mykola");
+    nameList.add("Alex");
+
+    System.out.println(nameList.get(0));
