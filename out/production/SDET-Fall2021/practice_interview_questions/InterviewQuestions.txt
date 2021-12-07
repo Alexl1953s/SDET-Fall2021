@@ -498,3 +498,19 @@
     nameList.add("Alex");
 
     System.out.println(nameList.get(0));
+
+58. What is a method in Java?
+    - methods are members of a class
+    - block of code
+    - it runs when invoked(called)
+    - to write less code, write once and use anywhere [depending on the access modifier]
+    - easy to maintain
+
+    syntax of creating a method:
+    access modifier, optional specifier, return type, method name(list of params) {}
+
+    EX: create a method that returns an arraylist of Strings and takes array of integers as a parameter:
+    public static ArrayList<Sting> returnNameOfStudentsByID(int[] ids) {
+
+        return new ArrayList<>(Arrays.asList("Fahad", "Maryna", "Aisha", "Negus"))
+    }
