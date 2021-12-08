@@ -13,12 +13,14 @@ public class SetCollectionIntro {
      */
 
     public static void main(String[] args) {
+
         // HashSet is the widely used Set type which does not have any orders
         Set<String> carMakers = new HashSet<>();
 
         boolean isAdded = carMakers.add("Honda");
         boolean hasHonda = carMakers.add("Honda"); // Set collection stores only unique elements
         // therefore only the first "Honda" String object will be stored
+
         System.out.println("Was Honda added already? " + isAdded);
         System.out.println("Was Honda added already? " + hasHonda);
         System.out.println(carMakers);

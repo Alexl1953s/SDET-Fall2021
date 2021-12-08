@@ -514,3 +514,12 @@
 
         return new ArrayList<>(Arrays.asList("Fahad", "Maryna", "Aisha", "Negus"))
     }
+
+59. Difference between String and StringBuilder?
+
+    - String is immutable[not changeable] and StringBuilder is mutable[changeable]
+    - Anytime we modify the string object new string object gets created in heap vs. StringBuilder
+    will use the same object when we modify it
+    - We can remove [delete] character or sequence of characters from StringBuilder using delete() or deleteCharAt() methods
+    - insert(index, char) -> with insert method we can insert characters into our stringbuilder object
+
