@@ -33,5 +33,21 @@ public class NestedArrayLIsts1 {
         }
 
         System.out.println("After adding '$': " + schoolList);
+
+        int[] nums = {1,2,3,4};
+        int[] nums2 = {120,12,12,23,34};
+
+        Integer[] arrOfIntObjects = {13,24,35,46};
+
+        ArrayList<int[]> numsList = new ArrayList<>();
+
+        numsList.add(nums);
+        numsList.add(nums2);
+
+        for (int[] num : numsList) {
+            System.out.println(Arrays.toString(num));
+        }
+
+//        numsList.add(arrOfIntObjects); -> ArrayList created only stores int[] primitive numbers
     }
 }

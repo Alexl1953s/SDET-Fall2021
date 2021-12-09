@@ -523,3 +523,42 @@
     - We can remove [delete] character or sequence of characters from StringBuilder using delete() or deleteCharAt() methods
     - insert(index, char) -> with insert method we can insert characters into our stringbuilder object
 
+60. What is a set collection?
+    - it's collection that doesn't allow duplicate elements
+    - we cannot obtain elements by indexes
+    - 3 implementations:
+        - HashSet -> doesn't have any order, stores elements in random order
+        - TreeSet -> stores elements in natural order, ascending or increasing etc.
+        - LinkedHashSet -> stores elements in original insertion order, the way the elements were initially inserted
+    - boolean add(Object obj) -> returns true if the elements did not exist already in the set
+        -> returns false if element is already in the set
+
+61. ArrayList:
+    - it stores objects
+    - Wrapper classes are supported to store the primitive types as objects
+    - it's in Collection Framework
+    - more flexible than array, the size is dynamic
+    - get(int index) -> returns the element at index
+    - add(Object obj) -> returns true after the successful insertion of the element into a List
+    but it does not return false because ArrayList allows duplicates, the only reason it returns boolean
+    is that Collection Interface add method returns boolean.
+    - size() -> returns the number of elements in the list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
